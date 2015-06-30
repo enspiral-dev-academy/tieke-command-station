@@ -6,7 +6,7 @@ Hi, you will be building something called the 'Command-Station'. It will be writ
 
 You have total control over a civilization of bots in a 'Bot-Server'. You also have complete visibility over a 'Landscape-Server' ripe with minerals and food.
 
-**Before reading the rest, you may want to review the documentation for the [Landscape-Server](https://github.com/enspiral-dev-academy/Landscape-Server/blob/master/README.md) and [Bot-Server](https://github.com/enspiral-dev-academy/Bot-Server/tree/master).**
+**Before reading the rest, you may want to review the documentation for the [Landscape-Server](https://github.com/enspiral-dev-academy/tieke-landscape-server/blob/master/README.md) and [Bot-Server](https://github.com/enspiral-dev-academy/tieke-bot-server/tree/master).**
 
 Your goal is to strategically coordinate your bots to mine as many minerals as they can from the Landscape-Server, in the shortest amount of time. Your bots need to eat, so your secondary goals will be to harvest food from the Landscape Server and feed your bots with that food.
 
@@ -14,9 +14,9 @@ Though, before you do any of that, you will need to build an interface to contro
 
 ## Interface
 
-The Landscape-Server will build endpoints that allow you to get data about the landscape, and an endpoint allowing you to reset the landscape completely. You can find their API documentation here: https://github.com/enspiral-dev-academy/Landscape-Server/blob/master/README.md
+The Landscape-Server will build endpoints that allow you to get data about the landscape, and an endpoint allowing you to reset the landscape completely. You can find their API documentation here: https://github.com/enspiral-dev-academy/tieke-landscape-server/blob/master/README.md
 
-The Bot-Server will build endpoints allowing you to send bots out to mine or harvest, feed its bots, and build new bots. They will also have endpoints allowing you to get information about every bot, or an individual bot -- their energy level, experience levels, and id. There will be a final endpoint that will return information on the Bot-Server's 'stockpile' -- how many minerals they have, and how much food they have. You can find their API documentation here: https://github.com/enspiral-dev-academy/Bot-Server/tree/master
+The Bot-Server will build endpoints allowing you to send bots out to mine or harvest, feed its bots, and build new bots. They will also have endpoints allowing you to get information about every bot, or an individual bot -- their energy level, experience levels, and id. There will be a final endpoint that will return information on the Bot-Server's 'stockpile' -- how many minerals they have, and how much food they have. You can find their API documentation here: https://github.com/enspiral-dev-academy/tieke-bot-server/tree/master
 
 You will build a visualization of the Landscape Server. This will look like a grid. Every cell in the grid will have an amount of minerals and food which you will display in your visualization.
 
