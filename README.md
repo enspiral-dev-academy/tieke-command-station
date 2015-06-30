@@ -16,7 +16,7 @@ Though, before you do any of that, you will need to build an interface to contro
 
 The Landscape-Server will build endpoints that allow you to get data about the landscape, and an endpoint allowing you to reset the landscape completely. You can find their API documentation here: https://github.com/enspiral-dev-academy/tieke-landscape-server/blob/master/README.md
 
-The Bot-Server will build endpoints allowing you to send bots out to mine or harvest, feed its bots, and build new bots. They will also have endpoints allowing you to get information about every bot, or an individual bot -- their energy level, experience levels, and id. There will be a final endpoint that will return information on the Bot-Server's 'stockpile' -- how many minerals they have, and how much food they have. You can find their API documentation here: https://github.com/enspiral-dev-academy/tieke-bot-server/tree/master
+The Bot-Server will build endpoints allowing you to send bots out to mine or harvest, feed its bots, and build new bots. They will also have endpoints allowing you to get information about every bot, or an individual bot -- their energy level, experience levels, and id. There will be a final endpoint that will return information on the Bot-Server's 'stockpile' -- how many minerals they have, and how much food they have. You can find their API documentation here: https://github.com/enspiral-dev-academy/tieke-bot-server/tree/master/README.md
 
 You will build a visualization of the Landscape Server. This will look like a grid. Every cell in the grid will have an amount of minerals and food which you will display in your visualization.
 
